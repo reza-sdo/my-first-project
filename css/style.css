@@ -1,0 +1,253 @@
+/*first */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #030303;
+    font-weight: 700;
+    color:#fff;
+}
+/* start header */
+header{
+    width: calc(100vw - 6rem);
+    height: 100vh;
+    position:relative;
+}
+.header{
+    color:#fff;
+    display: flex;
+    padding: 1rem 3rem;
+    background-color: rgba(0, 0, 0, 0.061);
+}
+.site-name{
+    color: #d44300;
+    font-size: 1.5rem;
+    width: 200px;
+    height: 28px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 6rem);
+
+}
+.navi{
+    display: flex;
+}
+.navi li {
+    list-style: none;
+    margin-top: 3px;
+}
+.navi a{
+    text-decoration: none;
+    color:#fff;
+    padding: 8px 10px;
+    border: 1px solid transparent;
+    margin: 0 5px;
+
+}
+.navi a:hover{
+    background-color: #fb6d2b;
+    border-radius: 8px;
+
+}
+.navbar input{
+    background-color: #d44300;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+.navbar input:hover{
+    background-color: #fb6d2b;
+}
+.main-header{
+    color: #fff;
+    width: calc(100% - 6rem);
+    height: 600px;
+    background-image: url(../img/hedaer-img-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.container{
+    margin: 0 3rem;
+}
+.main-header .texts{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    width: 240px;
+    padding: 20px;
+}
+.main-header .small-text{
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.main-header .big-text{
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+.to-down{
+    margin-left: calc(3rem + 20px);
+    cursor: pointer;
+    position:absolute ;
+    bottom: 20px ;
+    
+}
+.fas{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+.to-down a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 100;
+}
+.top-main{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+    position: relative;
+    
+}
+.main-texets{
+    width: 40%;
+    position: relative;
+}
+.main-texets p {
+    width: 300px;
+}
+.main-top-img{
+    width: 60%;
+}
+
+.main-top-img{
+    background-image: url(../img/main-top.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 55%;
+}
+.main-small-text {
+    font-weight: 200;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+
+}
+.big-main-text{
+    width: 290px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.small-main-b1{
+    width: 340px;
+    line-height: 25px;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.main-icon{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+.main-icon i{
+    color: #f15b15;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.main-icon p{
+    width: 150px;
+    font-weight: 100;
+    
+}
+.b-main{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+}
+.main-b-img{
+    background-image: url(../img/b-main.jpg);
+    height: 100%;
+    width: 60%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.ccc{
+    width: 35%;
+    padding: 15px;
+}
+.small-main-b2{
+    width: 280px;
+    line-height: 25px;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.icon-texes{
+    display: flex;
+    margin-top: 10px;
+}
+.big-b-text{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.line{
+    background-color: #ff4800;
+    width: 30px;
+    height:8px ;
+    margin: 10px 0;
+    border-radius: 10px
+}
+.icon-text{
+    font-weight: 100;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.footer-nav{
+    display: flex;
+    list-style: none;
+
+    
+}
+.footer-nav a {
+    text-decoration: none;
+    color:#fff;
+    margin-right: 10px;
+    font-weight: 100;
+}
+.copy-links{
+    display: flex;
+}
+.copy{
+    font-weight: 100;
+    margin-right: 10px;
+}
+.sotial a{
+    color: #fff;
+    margin-right: 5px;
+}
+
